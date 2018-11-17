@@ -23,12 +23,13 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
+        Me.ColorDialog1 = New System.Windows.Forms.ColorDialog()
         Me.SuspendLayout()
         '
         'CheckBox1
         '
         Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Location = New System.Drawing.Point(352, 51)
+        Me.CheckBox1.Location = New System.Drawing.Point(12, 12)
         Me.CheckBox1.Name = "CheckBox1"
         Me.CheckBox1.Size = New System.Drawing.Size(81, 17)
         Me.CheckBox1.TabIndex = 0
@@ -49,4 +50,5 @@ Partial Class Form1
     End Sub
 
     Friend WithEvents CheckBox1 As CheckBox
+    Friend WithEvents ColorDialog1 As ColorDialog
 End Class
